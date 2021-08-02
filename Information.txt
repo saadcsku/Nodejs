@@ -1,0 +1,16 @@
+Node js
+==============
+=> Runs in process
+=> Single threaded 
+=> no blocking i/o model
+=> keep events in stack
+=> Event thought its single threaded but its efficient
+=> the events wil be executed one by one without waiting for any event to complete. This is done by call back function
+=> In other language such as PHP they are multi threaded. They assign task to other threads
+
+
+
+Functional Approach
+==================
+=> We distribute responsibilities to different functions such as error function to handle error and data function to read data.
+
